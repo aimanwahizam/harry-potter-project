@@ -1,0 +1,10 @@
+@use "../assets/mixins" as *;
+
+.card {
+    border: 2px solid black;
+    @include center-column;
+    &__image {
+        height: 20rem;
+        width: auto;
+    }
+}

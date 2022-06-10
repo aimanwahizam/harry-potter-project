@@ -1,0 +1,11 @@
+@use "./assets/mixins" as *;
+
+.app {
+  @include center-column;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
